@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal's todo app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav  class="navbar  sticky-top navbar-expand-lg navbar1">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="images/download.jpg" alt="" height="80px" width="100px" style="background-color: #217594;">
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="big">
+        <section id="about">
+            <div class="container">
+             <div class="section-title text-center">
+               <div class="col-md-11 col-md-offset-1 pt-0">
+                    <h1 class="text-uppercase mt-20 line-height-1 head" style="text-align: center;">Anas  <span > Jani</span></h1>
+                 </h2> 
+              
+               <div class="row">
+                </div> 
+              </div>
+              </div>
+            </div>
+          </section>
+            <div class="container-fluid bg main">
+                <div class="row">
+                    <div class="col-xm-12 col-sm-4 col-md-4 "> </div>
+                    <div class="todo">
+               <input class="input" id="todo-items" type="text" placeholder="What do you want to add..">
+               <button class="btn btn-success add" onclick="addtodo()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+               <button class="btn btn-danger del" onclick="deleteall()"><i class="fa fa-trash" aria-hidden="true"></i></button>
+           
+            </div>
+            <div class="col-xm-12 col-sm-4 col-md-4 "> </div>
+           <div class="item">
+               <table id="list">
+                   
+               </table>
+           </div>
+       
+    </div>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
